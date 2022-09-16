@@ -49,8 +49,8 @@ function [simul_1,simul_2,simul_3,simul_4] = simulation(num_rep,option,power_all
         end
 
         for N = 1:MC %Start every unrelated repetition.        
-            %X = ['|Repetition = ',num2str(i),' | MC = ',num2str(N),' | Simulation = ',num2str(power_alloc_opt)];
-            %display(X); 
+            X = ['|Repetition = ',num2str(i),' | MC = ',num2str(N),' | Simulation = ',num2str(power_alloc_opt)];
+            display(X); 
         
             if option == 1 %First Environment for simulations
             
